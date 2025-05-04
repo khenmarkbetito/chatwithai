@@ -1,6 +1,6 @@
-# Gemini Chat App
+# Nexus Chat App
 
-A mobile application for chatting with Google's Gemini AI using React Native and Expo.
+A mobile application for chatting with AI using React Native and Expo.
 
 ## Features
 
@@ -26,7 +26,7 @@ A mobile application for chatting with Google's Gemini AI using React Native and
 
 2. Navigate to the project directory:
 ```bash
-cd gemini-chat-app
+cd chatwithai
 ```
 
 3. Install dependencies:
@@ -92,21 +92,17 @@ eas build -p android --profile development
 
 ## API Integration
 
-The app uses the Gemini API. The API key is already included in the source code for demonstration purposes.
+The app uses the Gemini API. The API key should be paste in source code but i provided it already.
 
-In a production environment, you should:
+In a production environment:
 1. Use environment variables for the API key
 2. Implement proper authentication
 3. Consider using a backend to proxy API requests for added security
 
 ## Customization
 
-You can customize the app by modifying:
+Customize the app by modifying:
 
 - `constants/Colors.ts` - App color scheme
 - Fonts and styling in individual component files
 - API parameters in `services/GeminiService.ts`
-
-## License
-
-This project is licensed under the MIT License.
